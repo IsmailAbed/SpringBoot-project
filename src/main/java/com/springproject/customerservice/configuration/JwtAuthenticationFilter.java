@@ -23,6 +23,7 @@ import java.io.IOException;
 
 @Component
 @RequiredArgsConstructor
+//extarct the token from the request
 
 // validate the  jwt for every api
 public class JwtAuthenticationFilter extends OncePerRequestFilter { //extract the token from request
