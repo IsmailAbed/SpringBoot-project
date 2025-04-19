@@ -51,6 +51,8 @@ public class WebSecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
+
+//these 2 methods helps generating jwt token
     @Bean
     public AuthenticationProvider authenticationProvider(){
         DaoAuthenticationProvider authProvider = new DaoAuthenticationProvider();
